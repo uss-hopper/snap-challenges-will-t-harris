@@ -1,1 +1,0 @@
-# As a registered user, I can edit an image in an existing email campaign.
