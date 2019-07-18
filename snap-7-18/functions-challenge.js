@@ -1,9 +1,9 @@
 /**
  * convert a weight to grams
  *
- * @param weight = value of weight being passed in for conversion
- * @param abbreviation = abbreviated weight units
- * @returns {string} with converted value
+ * @param weight The value of weight being passed in for conversion
+ * @param abbreviation The abbreviated weight units
+ * @returns string with final converted value
  **/
 function convertWeightToGrams(weight, abbreviation) {
 	if(abbreviation === 'lbs') {
@@ -21,7 +21,12 @@ function convertWeightToGrams(weight, abbreviation) {
 	}
 }
 
-
+/**
+ * find the sum of all positive factors of an integer
+ *
+ * @param num the number being passed in
+ * @returns sum the sum of the positive factors found in the loop
+ */
 function findSumOfPositiveFactors(num) {
 	let sum = 0;
 	for(let i = 0; i <= num; i++) {
