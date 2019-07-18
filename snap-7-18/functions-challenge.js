@@ -19,3 +19,14 @@ function weightToGrams(weight, abbreviation) {
 		return (weight * .001) + ' grams';
 	}
 }
+
+
+function findSumOfPositiveFactors(num) {
+	for(let i = 0; i < num; i++) {
+		let sum = 0;
+		if(num % i === 0) {
+			sum += i;
+		}
+		return sum;
+	}
+}
