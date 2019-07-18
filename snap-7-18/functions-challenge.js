@@ -24,12 +24,12 @@ function convertWeightToGrams(weight, abbreviation) {
 /**
  * find the sum of all unique positive factors of an integer
  *
- * @param num the number being passed in to be factored
+ * @param number the number being passed in to be factored
  * @returns sum the sum of the positive factors found in the loop
  */
 function findSumOfPositiveFactors(number) {
 	let sum = 0;
-	for(let i = 0; i <= number; i++) {
+	for(let i = 1; i <= number; i++) {
 		if(number % i === 0) {
 			sum += i;
 		}
