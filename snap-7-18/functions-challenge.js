@@ -1,8 +1,8 @@
 function convertWeightToGrams(weight, abbreviation) {
 	if(abbreviation === 'lbs') {
-		return (weight * 453.5924) + ' grams';
+		return (weight * 453.59237) + ' grams';
 	} else if(abbreviation === 'oz') {
-		return (weight * 38.34952) + ' grams';
+		return (weight * 28.34952) + ' grams';
 	} else if(abbreviation === 'kg') {
 		return (weight * 1000) + ' grams';
 	} else if(abbreviation === 'mg') {
