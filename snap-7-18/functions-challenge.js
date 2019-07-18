@@ -1,19 +1,19 @@
 /**
  * convert a weight to grams
  *
- * @param weight The value of weight being passed in for conversion
+ * @param weight The value being passed in for conversion
  * @param abbreviation The abbreviated weight units
  * @returns string with final converted value
  **/
 function convertWeightToGrams(weight, abbreviation) {
 	if(abbreviation === 'lbs') {
-		return (weight * 453.59237);
+		return weight * 453.59237;
 	} else if(abbreviation === 'oz') {
-		return (weight * 28.34952);
+		return weight * 28.34952;
 	} else if(abbreviation === 'kg') {
-		return (weight * 1000);
+		return weight * 1000;
 	} else if(abbreviation === 'mg') {
-		return (weight * .001);
+		return weight * .001;
 	} else if(abbreviation === 'g') {
 		return weight;
 	} else {
