@@ -9,6 +9,8 @@ function convertWeightToGrams(weight, abbreviation) {
 		return (weight * .001) + ' grams';
 	} else if(abbreviation === 'g') {
 		return weight + ' grams';
+	} else {
+		return `I don't know how to convert that value, please try again.`;
 	}
 }
 
