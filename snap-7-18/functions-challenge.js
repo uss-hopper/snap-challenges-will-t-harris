@@ -1,4 +1,4 @@
-function weightToGrams(weight, abbreviation) {
+function convertWeightToGrams(weight, abbreviation) {
 	if(abbreviation === 'lbs') {
 		return (weight * 453.5924) + ' grams';
 	}
