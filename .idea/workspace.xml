@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f0b5b3-6fc4-4544-8b81-7211cd418613" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/24b736fa-9ad1-45d4-910e-0b881a4a41d5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/24b736fa-9ad1-45d4-910e-0b881a4a41d5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,6 +43,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="wharris21: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - wharris21@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="wharris21: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="Task: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -53,11 +60,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snap-7-16/snap.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
               <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/snap-7-16/snap2.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -76,6 +92,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/24b736fa-9ad1-45d4-910e-0b881a4a41d5/ddl.sql" />
         <option value="$PROJECT_DIR$/snap-7-11/ddl.sql" />
         <option value="$PROJECT_DIR$/snap-7-16/snap.sql" />
+        <option value="$PROJECT_DIR$/snap-7-16/snap2.sql" />
       </list>
     </option>
   </component>
@@ -156,18 +173,18 @@
       <updated>1562853821323</updated>
       <workItem from="1562853822531" duration="4884000" />
       <workItem from="1562863094195" duration="1694000" />
-      <workItem from="1563285972823" duration="769000" />
+      <workItem from="1563285972823" duration="3765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7347000" />
+    <option name="totallyTimeSpent" value="10343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12433012" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12433012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -180,12 +197,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3295325" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295325" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.329582" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.329582" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +243,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snap-7-16/snap2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
         </state>
       </provider>
     </entry>
