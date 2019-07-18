@@ -1,3 +1,10 @@
+/**
+ * convert a weight to grams
+ *
+ * @param weight = value of weight being passed in for conversion
+ * @param abbreviation = abbreviated weight units
+ * @returns {string} with converted value
+ **/
 function convertWeightToGrams(weight, abbreviation) {
 	if(abbreviation === 'lbs') {
 		return (weight * 453.59237) + ' grams';
