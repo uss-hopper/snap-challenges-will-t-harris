@@ -105,6 +105,6 @@ class User {
 	 * @param string $userMessage
 	 **/
 	public function displayUserGreeting($userMessage) {
-		echo 'User message: $userMessage';
+		echo "User message: $userMessage";
 	}
 }
