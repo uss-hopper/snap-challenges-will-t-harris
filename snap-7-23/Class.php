@@ -58,6 +58,12 @@ class User {
 	}
 
 	/**
+	 * getter/accessor method for user name
 	 *
+	 * @return string value for user name
 	 **/
+	public function getUserName() {
+		return $this->userName;
+	}
+
 }
