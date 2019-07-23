@@ -7,7 +7,7 @@ class User {
 	/**
 	 * id value for this instance of user; this is the primary key
 	 *
-	 * @var string $userId
+	 * @var Uuid | string $userId
 	 **/
 	private $userId;
 	/**
@@ -16,6 +16,19 @@ class User {
 	 * @var string $userName
 	 **/
 	private $userName;
+
+	/**
+	 * constructor function for User Class
+	 **/
+	public function __construct($newUserId, $newUserName) {
+		try {
+			$this->userId = $newUserId;
+			$this->userName = $newUserName;
+		} catch(\InvalidArgumentException | \RangeException | \Exception | \TypeError $exception ) {
+			$exceptionType = get_class($exception);
+			throw(new $exceptionType($exception->getMessage(), 0, $exception));
+		}
+	}
 
 	/**
 	 * getter/accessor method for user id
@@ -27,6 +40,11 @@ class User {
 	}
 
 	/**
+	 * setter/mutator method for user id
 	 *
+	 * @param Uuid | string $newUserId;
 	 **/
+	public function setUserId($newUserId) {
+
+	}
 }
