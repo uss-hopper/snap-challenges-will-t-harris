@@ -1,5 +1,5 @@
 <?php
-
+namespace Wharris21\Snap;
 /**
  * Class definition for User class
  **/
