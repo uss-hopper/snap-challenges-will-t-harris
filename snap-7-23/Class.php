@@ -99,4 +99,12 @@ class User {
 		$this->userName = $newUserName;
 	}
 
+	/**
+	 * greeting method for the user class
+	 *
+	 * @param string $userMessage
+	 **/
+	public function displayUserGreeting($userMessage) {
+		echo 'User message: $userMessage';
+	}
 }
