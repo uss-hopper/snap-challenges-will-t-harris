@@ -19,6 +19,13 @@ class User {
 
 	/**
 	 * constructor function for User Class
+	 *
+	 * @param string $newUserId id of this user
+	 * @param string $newUserName username of this author
+	 * @throw \InvalidArgumentException if data types are not valid
+	 * @throw \RangeException if data values are out of bounds (values too long)
+	 * @throw \TypeError if data types violate type hints
+	 * @throw \Exception if some other error occurs
 	 **/
 	public function __construct($newUserId, $newUserName) {
 		try {
@@ -62,8 +69,17 @@ class User {
 	 *
 	 * @return string value for user name
 	 **/
-	public function getUserName() {
+	public function getUserName() : string {
 		return $this->userName;
+	}
+
+	/**
+	 * setter/mutator method for user name
+	 *
+	 * @param string $newUserName
+	 **/
+	public function setUserName($newUserName) {
+
 	}
 
 }
