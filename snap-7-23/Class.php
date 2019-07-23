@@ -45,6 +45,8 @@ class User {
 	 * @param Uuid | string $newUserId;
 	 **/
 	public function setUserId($newUserId) {
-
+		// trim and sanitize user id
+		$newUserId = trim($newUserId);
+		$newUserId = filter_var($newUserId, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	}
 }
