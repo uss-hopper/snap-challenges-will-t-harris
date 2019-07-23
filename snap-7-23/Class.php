@@ -50,14 +50,18 @@ class User {
 	 * setter/mutator method for user id
 	 *
 	 * @param Uuid | string $newUserId;
+	 * @throws \InvalidArgumentException if argument is an empty value
+	 * @throws \TypeError if argument is not a string
 	 **/
 	public function setUserId($newUserId) {
 		// trim and sanitize user id
 		$newUserId = trim($newUserId);
 		$newUserId = filter_var($newUserId, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+		// throw error if argument is empty
 		if(empty($newUserId)) {
 			throw(new \InvalidArgumentException('User id is a required field, cannot take an empty value'));
 		}
+		// throw error if argument is not a string
 		if(!is_string($newUserId)) {
 			throw(new \TypeError('Invalid argument type for user id, expected string'));
 		}
@@ -77,9 +81,22 @@ class User {
 	 * setter/mutator method for user name
 	 *
 	 * @param string $newUserName
+	 * @throws \InvalidArgumentException if argument value is empty
+	 * @throws \TypeError if argument value is not a string
 	 **/
 	public function setUserName($newUserName) {
-
+		// trim and sanitize input
+		$newUserName = trim($newUserName);
+		$newUserName = filter_var($newUserName, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+		// throw error if argument is empty
+		if(empty($newUserName)) {
+			throw(new \InvalidArgumentException('Username is a required field, cannot take an empty value'));
+		}
+		// throw error if argument is not a string
+		if(!is_string($newUserName)) {
+			throw(new \TypeError('Invalid argument type for user name, expected string'));
+		}
+		$this->userName = $newUserName;
 	}
 
 }
