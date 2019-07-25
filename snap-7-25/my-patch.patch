@@ -1,0 +1,8 @@
+diff --git a/snap-7-25/my-patch.txt b/snap-7-25/my-patch.txt
+new file mode 100644
+index 0000000..63c9456
+--- /dev/null
++++ b/snap-7-25/my-patch.txt
+@@ -0,0 +1 @@
++I'm getting the hang of this git stuff.
+\ No newline at end of file
