@@ -6,11 +6,13 @@
 	</head>
 	<body>
 		<ol>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>Master Branch</li>
+			<li>Develop Branch</li>
+			<li>Feature Branch</li>
+			<li>Sprint Release Branch</li>
+			<li>Hotfix Branch</li>
 		</ol>
+		<p>For a given ticket, call it create-personas, we would start by branching off of the develop branch a feature branch called 'create-personas.  We would develop the personas and push all of our work up to the feature branch as we work.  When we think the feature is complete, we would merge the feature back into the develop branch.  Once all of the features for the current sprint are complete and merged into develop, we would then merge all the work that is currently on develop into a 'sprint-x-release' branch.  This branch we would use for testing and making sure that the code we have is production quality.  Once we've decided that the sprint-x-release branch is good to go, we would merge it into the master branch.  We only merge sprint releases to the master branch.  We never push work directly to the master branch.  The master branch serves as our rolling completed state of our project.</p>
+		<p>We also sometimes will create hotfix branches directly off of the master branch in case of an emergency.  This is the only time we would directly modify the master branch, and should be used very sparingly.</p>
 	</body>
 </html>
