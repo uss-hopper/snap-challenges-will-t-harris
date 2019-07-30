@@ -10,7 +10,10 @@ class Tweet {
 	 *
 	 * @param \PDO $pdo PDO connection object
 	 * @param \DateTime $tweetDate date to get tweets for
-	 * @return \SplFixedArray SplFixedArray of tweets found
+	 * @return \SplFixedArray $tweets of tweets found
+	 * @throws \InvalidArgumentException if invalid data type passed into ValidateDate trait
+	 * @throws \RangeException if data passed into ValidateDate trait exceeds valid range
+	 * @throws \PDOException if invalid PDO connection object is passed into loop
 	 */
 	public function getTweetsByTweetDate(\PDO $pdo, \DateTime $tweetDate) : \SplFixedArray {
 		// check to make sure date is valid
