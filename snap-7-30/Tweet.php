@@ -1,5 +1,9 @@
 <?php
+namespace Wharris21\Snap;
 
+/**
+ * Class definition for a Tweet
+ */
 class Tweet {
 	/**
 	 * method to return all tweets on a given date
