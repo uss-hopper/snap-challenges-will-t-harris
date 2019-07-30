@@ -29,18 +29,5 @@ class Tweet {
 		$parameters = ["tweetId" => $tweetId->getBytes()];
 		$statement->execute($parameters);
 
-		// get the tweet from MySQL
-		try {
-			$tweet = null;
-			$statement->setFetchMode(\PDO::FETCH_ASSOC);
-			$row = $statement->fetch();
-			if($row) {
-				$tweet = new Tweet($row["tweetId"], $row["tweetProfileId"], $row["tweetContent"], $row["tweetDate"]);
-			}
-		} catch(\Exception $exception) {
-			// if the row couldn't be converted, throw it
-			throw(new \PDOException($exception->getMessage(), 0, $exception));
-		}
-		return($tweet);
 	}
 }
