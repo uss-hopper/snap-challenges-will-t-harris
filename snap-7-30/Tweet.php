@@ -47,3 +47,12 @@ class Tweet {
 		return($tweets);
 	}
 }
+
+// TODO SOLUTION FROM CLASS
+// Get all tweets posted on the calendar day of a given DateTime
+public static function getTweetByTweetDate(\PDO $pdo, DateTime $tweetDate) : \SplFixedArray {
+	$startDateString = $tweetDate->format('Y-m-d') . '00:00:00';
+	$startDate = new \DateTime($startDateString);
+	$endDate = new \DateTime($startDateString);
+	$endDate->add(new \DateInterval('P1D'));
+}
