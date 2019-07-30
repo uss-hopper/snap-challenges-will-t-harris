@@ -22,7 +22,11 @@ class Tweet {
 		}
 
 		// create query template
-		$query = "SELECT tweetContent FROM tweet WHERE tweetDate = :tweetDate";
+		$query = "SELECT tweetId, tweetProfileId, tweetContent, tweetDate FROM tweet WHERE tweetDate = :tweetDate";
 		$statement = $pdo->prepare($query);
+
+		// bind the tweet id to the placeholder in the query template
+		$parameters = ["tweetId" => $tweetId->getBytes()];
+		$statement->execute($parameters);
 	}
 }
