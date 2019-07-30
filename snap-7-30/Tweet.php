@@ -28,8 +28,8 @@ class Tweet {
 		$query = "SELECT tweetId, tweetProfileId, tweetContent, tweetDate FROM tweet WHERE tweetDate = :tweetDate";
 		$statement = $pdo->prepare($query);
 
-		// bind the tweet id to the placeholder in the query template
-		$parameters = ["tweetId" => $tweetId->getBytes()];
+		// bind the tweet date to the placeholder in the query template
+		$parameters = ["tweetDate" => $tweetDate];
 		$statement->execute($parameters);
 
 		$tweets = new \SplFixedArray($statement->rowCount());
