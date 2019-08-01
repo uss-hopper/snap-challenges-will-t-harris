@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f0b5b3-6fc4-4544-8b81-7211cd418613" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/snap-7-25/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/snap-7-25/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,77 +58,12 @@
       <node key="24b736fa-9ad1-45d4-910e-0b881a4a41d5" />
     </checked>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/snap-7-25/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="215" selection-start-line="15" selection-start-column="215" selection-end-line="15" selection-end-column="215" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/snap-7-11/snap-7-11.md" />
-        <option value="$PROJECT_DIR$/snap-7-11/user-story.html" />
-        <option value="$PROJECT_DIR$/snap-7-11/erd-snap-7-11.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/24b736fa-9ad1-45d4-910e-0b881a4a41d5/ddl.sql" />
-        <option value="$PROJECT_DIR$/snap-7-11/ddl.sql" />
-        <option value="$PROJECT_DIR$/snap-7-16/snap.sql" />
-        <option value="$PROJECT_DIR$/snap-7-18/weight-to-grams.js" />
-        <option value="$PROJECT_DIR$/snap-7-18/functions-challenge.js" />
-        <option value="$PROJECT_DIR$/snap-7-16/snap2.sql" />
-        <option value="$PROJECT_DIR$/snap-7-23/ValidateUuid.php" />
-        <option value="$PROJECT_DIR$/snap-7-23/Class.php" />
-        <option value="$PROJECT_DIR$/snap-7-23/user.php" />
-        <option value="$PROJECT_DIR$/snap-7-25/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-1" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="snap-challenges-will-t-harris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snap-challenges-will-t-harris" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snap-challenges-will-t-harris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snap-challenges-will-t-harris" type="462c0819:PsiDirectoryNode" />
-              <item name="snap-7-23" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snap-challenges-will-t-harris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snap-challenges-will-t-harris" type="462c0819:PsiDirectoryNode" />
-              <item name="snap-7-25" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1OjdiAyIMf2pT7qsprpfD5dsCno" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -138,6 +74,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -179,114 +120,27 @@
       <workItem from="1563890494743" duration="3935000" />
       <workItem from="1563899429229" duration="603000" />
       <workItem from="1563908980539" duration="623000" />
-      <workItem from="1564063632501" duration="645000" />
+      <workItem from="1564063632501" duration="4939000" />
+      <workItem from="1564495066137" duration="3245000" />
+      <workItem from="1564514021038" duration="1262000" />
+      <workItem from="1564668166543" duration="121000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24857000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13397641" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295325" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3295325" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295325" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32061067" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.329582" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/snap-7-11/snap-7-11.md" />
-    <entry file="file://$PROJECT_DIR$/snap-7-11/erd-snap-7-11.jpg" />
-    <entry file="file://$PROJECT_DIR$/snap-7-11/user-story.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="87" lean-forward="true" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap-7-11/erd-snap-7-11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24b736fa-9ad1-45d4-910e-0b881a4a41d5/ddl.sqp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24b736fa-9ad1-45d4-910e-0b881a4a41d5/ddl.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24b736fa-9ad1-45d4-910e-0b881a4a41d5/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap-7-11/ddl.sql" />
-    <entry file="file://$PROJECT_DIR$/snap-7-18/functions-challenge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap-7-16/snap2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap-7-16/snap.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap-7-23/ValidateUuid.php" />
-    <entry file="file://$PROJECT_DIR$/snap-7-23/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap-7-23/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snap-7-25/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="215" selection-start-line="15" selection-start-column="215" selection-end-line="15" selection-end-column="215" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
