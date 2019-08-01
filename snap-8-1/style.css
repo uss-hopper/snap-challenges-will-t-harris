@@ -1,4 +1,4 @@
-ul {
+.my-list {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -8,18 +8,15 @@ ul {
 	justify-content: space-evenly;
 }
 
-li {
+.my-item {
 	background: tomato;
+	padding: 5px;
+	margin-top: 10px;
+	width: 200px;
+	height: 150px;
 	line-height: 150px;
 	color: white;
 	font-weight: bold;
 	font-size: 3em;
 	text-align: center;
-}
-
-.my-item {
-	padding: 5px;
-	margin-top: 10px;
-	width: 200px;
-	height: 150px;
 }
