@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d09ff153-73e3-4f70-9599-69f826b70f3e" name="snap-unit-challenge" url="http://bootcamp-coders.cnm.edu/~wharris21/snap-unit-challenge">
+        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" rootFolder="/home/wharris21/public_html/snap-unit-challenge" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
