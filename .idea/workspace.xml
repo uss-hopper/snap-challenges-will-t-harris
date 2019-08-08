@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f0b5b3-6fc4-4544-8b81-7211cd418613" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snap-8-8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/snap-8-8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris/php/classes/Test/QuoteTestSetup.php" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris/php/classes/Test/QuoteTestSetup.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/snap-unit-test-will-t-harris/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -62,7 +62,7 @@
     </checked>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/snap-unit-test-will-t-harris" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OjdiAyIMf2pT7qsprpfD5dsCno" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -130,6 +130,7 @@
       <workItem from="1564668166543" duration="1361000" />
       <workItem from="1564672411306" duration="1158000" />
       <workItem from="1565118969216" duration="2448000" />
+      <workItem from="1565273104210" duration="601000" />
     </task>
     <servers />
   </component>
