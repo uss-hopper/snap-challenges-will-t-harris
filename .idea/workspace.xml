@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="07f0b5b3-6fc4-4544-8b81-7211cd418613" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snap-8-8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/snap-8-8/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris/php/classes/Test/QuoteTestSetup.php" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris/php/classes/Test/QuoteTestSetup.php" afterDir="false" />
     </list>
@@ -13,7 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/snap-unit-test-will-t-harris/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -96,12 +95,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.script.js">
     <configuration name="functions-challenge.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/snap-7-18/functions-challenge.js" working-dir="$PROJECT_DIR$/snap-7-18">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/snap-8-13">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.script.js" />
         <item itemvalue="Node.js.functions-challenge.js" />
       </list>
     </recent_temporary>
@@ -130,7 +133,10 @@
       <workItem from="1564668166543" duration="1361000" />
       <workItem from="1564672411306" duration="1158000" />
       <workItem from="1565118969216" duration="2448000" />
-      <workItem from="1565273104210" duration="3108000" />
+      <workItem from="1565273104210" duration="3230000" />
+      <workItem from="1565276457632" duration="10000" />
+      <workItem from="1565622173305" duration="16000" />
+      <workItem from="1565705088996" duration="1691000" />
     </task>
     <servers />
   </component>
