@@ -232,5 +232,8 @@ let array = [
 ];
 
 let newArray = array.map(person => {
-	delete person.company;
+	if(person.company) {
+		delete person.company;
+	}
 });
+console.log(newArray);
