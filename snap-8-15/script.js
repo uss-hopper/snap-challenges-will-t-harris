@@ -231,7 +231,24 @@ let array = [
 	}
 ];
 
+
 let newArray = array.map(person => {
-	return {id: person.id, name: person.name, username: person.username, email: person.email, address: person.address, phone: person.phone, website: person.website};
+	return {
+		id: person.id,
+		name: person.name,
+		username: person.username,
+		email: person.email,
+		address: {
+			street: person.address.street,
+			suite: person.address.suite,
+			city: person.address.city,
+			zipcode: person.address.zipcode,
+			geo: {
+				lat: person.address.geo.lat,
+				lng: person.address.geo.lng
+			}
+		},
+		phone: person.phone,
+		website: person.website};
 });
 console.log(newArray);
