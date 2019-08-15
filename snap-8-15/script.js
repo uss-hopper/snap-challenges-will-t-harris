@@ -232,6 +232,6 @@ let array = [
 ];
 
 let newArray = array.map(person => {
-	console.log(person);
+	console.log(person.company);
 });
 console.log(newArray);
