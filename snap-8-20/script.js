@@ -2,8 +2,8 @@ const sentence = "Ensign Babyface! Your shields were failing, sir. This should b
 
 const sentenceArray = sentence.split(" ");
 
-const result = sentenceArray.filter(word => {
-	if(word[0] === 'E' || word[0] === 'e') {
-		console.log(word.substring(1));
-	}
+let result = sentenceArray.filter(word => {
+	return ((word[0] === 'E' || word[0] === 'e') === false);
 });
+resultSentence = result.join(' ');
+console.log(resultSentence);
