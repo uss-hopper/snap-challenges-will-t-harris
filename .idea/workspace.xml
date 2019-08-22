@@ -96,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.script.js (2)">
+  <component name="RunManager" selected="Node.js.script.js (3)">
     <configuration name="functions-challenge.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/snap-7-18/functions-challenge.js" working-dir="$PROJECT_DIR$/snap-7-18">
       <method v="2" />
     </configuration>
@@ -106,11 +106,15 @@
     <configuration name="script.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/snap-8-20">
       <method v="2" />
     </configuration>
+    <configuration name="script.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/snap-8-22">
+      <method v="2" />
+    </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/snap-8-13">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.script.js (3)" />
         <item itemvalue="Node.js.script.js (2)" />
         <item itemvalue="Node.js.script.js (1)" />
         <item itemvalue="Node.js.script.js" />
@@ -151,7 +155,7 @@
       <workItem from="1566309520468" duration="2760000" />
       <workItem from="1566313335909" duration="1909000" />
       <workItem from="1566327940239" duration="22000" />
-      <workItem from="1566482674030" duration="289000" />
+      <workItem from="1566482674030" duration="399000" />
     </task>
     <servers />
   </component>
