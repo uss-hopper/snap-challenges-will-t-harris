@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="07f0b5b3-6fc4-4544-8b81-7211cd418613" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snap-8-20/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/snap-8-20/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris/php/classes/Test/QuoteTestSetup.php" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris/php/classes/Test/QuoteTestSetup.php" afterDir="false" />
     </list>
@@ -149,6 +148,9 @@
       <workItem from="1565708194596" duration="1738000" />
       <workItem from="1565877748353" duration="5303000" />
       <workItem from="1566309520468" duration="2760000" />
+      <workItem from="1566313335909" duration="1909000" />
+      <workItem from="1566327940239" duration="22000" />
+      <workItem from="1566482674030" duration="162000" />
     </task>
     <servers />
   </component>
