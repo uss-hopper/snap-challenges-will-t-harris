@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f0b5b3-6fc4-4544-8b81-7211cd418613" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-8-27/sample-interview-questions-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/snap-8-27/sample-interview-questions-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris/php/classes/Test/QuoteTestSetup.php" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris/php/classes/Test/QuoteTestSetup.php" afterDir="false" />
@@ -156,7 +157,7 @@
       <workItem from="1566327940239" duration="22000" />
       <workItem from="1566482674030" duration="1550000" />
       <workItem from="1566486390748" duration="1831000" />
-      <workItem from="1566914608392" duration="892000" />
+      <workItem from="1566914608392" duration="1290000" />
     </task>
     <servers />
   </component>
