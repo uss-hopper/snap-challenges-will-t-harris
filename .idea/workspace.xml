@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f0b5b3-6fc4-4544-8b81-7211cd418613" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/snap-8-27/sample-interview-questions-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-8-22/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/snap-8-22/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snap-unit-test-will-t-harris" beforeDir="false" afterPath="$PROJECT_DIR$/snap-unit-test-will-t-harris" afterDir="false" />
@@ -77,7 +78,7 @@
     <property name="options.lastSelected" value="com.intellij.application.options.CodeStyleSchemesConfigurable" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -155,7 +156,9 @@
       <workItem from="1566309520468" duration="2760000" />
       <workItem from="1566313335909" duration="1909000" />
       <workItem from="1566327940239" duration="22000" />
-      <workItem from="1566482674030" duration="784000" />
+      <workItem from="1566482674030" duration="1550000" />
+      <workItem from="1566486390748" duration="1831000" />
+      <workItem from="1566914608392" duration="681000" />
     </task>
     <servers />
   </component>
