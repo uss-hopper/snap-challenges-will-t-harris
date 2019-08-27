@@ -13,6 +13,6 @@
 * Create a loop starting at num1 and ending at num2, incrementing by 1
 * Let's call current value of loop currentNumber
 * Create variable called functionOutput
-* If currentNumber % 2 === 0 AND currentNumber / 3 !== floating point number, output += 'baz'
+* If currentNumber % 2 === 0 AND currentNumber % 3 ==, output += 'baz'
 * Else If currentNumber % 2 === 0, output += 'fizz' 
-* Else If currentNumber / 3 !== floating point number, output += 'buzz' 
+* Else If currentNumber % 3 === 0 , output += 'buzz' 
