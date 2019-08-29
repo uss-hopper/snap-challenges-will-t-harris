@@ -22,3 +22,13 @@ function returnGreatestNumber(array) {
         return greatestNumber;
     })
 }
+
+// 3 - In pseudocode, write a function that computes the first 100 numbers in the Fibonacci sequence. The Fibonacci sequence is created by adding the two previous numbers in the sequence together, and starts 1, 1, 2, 3, 5, 8...
+
+function computeFirst100Fibonacci() {
+    const answerArrayWithSequenceStart = [1, 1];
+    for(let i = 2; i <= 100; i++) {
+        answerArrayWithSequenceStart[i] = answerArrayWithSequenceStart[i - 1] + answerArrayWithSequenceStart[i - 2];
+    }
+    return answerArrayWithSequenceStart;
+}
