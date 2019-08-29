@@ -1,4 +1,4 @@
-#In pseudocode, write a function that takes a string and returns it with all vowels (not including y) removed.
+# 1 - In pseudocode, write a function that takes a string and returns it with all vowels _(not including y)_ removed.
 
 function removeVowels(string) {
     const result = '';
