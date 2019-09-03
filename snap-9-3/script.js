@@ -1,0 +1,1 @@
+const array = ['Bob', 'Jim', 'Matt', 'Mary', 'Suzy', ' Sarah'];
