@@ -7,7 +7,5 @@ const nameArray = ['Bob', 'Jim', 'Matt', 'Mary', 'Suzy', ' Sarah'];
 	newParagraph.appendChild(newParagraphContent);
 
 	const currentElement = document.getElementById('header');
-	document.body.insertBefore(newParagraph, currentElement);
+	currentElement.insertAdjacentElement('afterend', newParagraph);
 });
-
- console.log(result);
