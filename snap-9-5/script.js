@@ -5,3 +5,5 @@ axios.get(' https://dog.ceo/api/breeds/list/all ').then(response => {
 });
 
 const element = document.getElementById('target');
+
+element.innerText = dogs;
